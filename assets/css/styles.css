@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+div {
+    background: #10375c;
+    width: 1000px;
+    height: 1000px;
+}
+h1 {
+    color: #fff;
+    width: 517px;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 114.286% */
+    letter-spacing: -1.4px;
+}

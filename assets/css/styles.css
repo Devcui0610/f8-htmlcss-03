@@ -335,3 +335,75 @@ a {
     line-height: 1.75;
     margin-top: 8px;
 }
+
+/* =========== SECTION: INSTRUCT =========== */
+.instruct {
+    margin-top: 170px;
+    background: #f6fbff;
+    padding: 100px 0;
+}
+
+.instruct__title {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.1rem;
+}
+
+.instruct__desc {
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.667;
+    margin-top: 18px;
+}
+
+.instruct__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 86px;
+}
+
+.instruct__item {
+    border-radius: 4px;
+    background: #fff;
+    border: 16px solid #eaf6ff;
+    padding: 43px 42px;
+    transition: all 1s;
+}
+
+.instruct__item:hover{
+    position: relative;
+    bottom: 16px;
+    border: 16px solid var(--primary-color);
+}
+
+.instruct__item--title {
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.39;
+    margin-top: 18px;
+}
+
+.instruct__item--link,
+.instruct__item--desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 28px;
+}
+
+.instruct__item--link {
+    display: inline-block;
+    margin-top: 18px;
+    transition: all 0.3s;
+}
+
+.instruct__item--link:hover{
+    color: var(--primary-color);
+    font-weight: 400;
+}

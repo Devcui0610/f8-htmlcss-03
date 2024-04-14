@@ -3,7 +3,7 @@
 }
 
 :root {
-    --pramary-color: #2e80ce;
+    --primary-color: #2e80ce;
     --header-bg: #10375c;
 }
 
@@ -35,7 +35,7 @@ a {
 .btn {
     display: inline-block;
     color: #fff;
-    background: var(--pramary-color);
+    background: var(--primary-color);
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75;
@@ -73,7 +73,7 @@ a {
 .logo__circle::before {
     width: 3em;
     height: 3em;
-    background: var(--pramary-color);
+    background: var(--primary-color);
 }
 
 .logo__circle::after {
@@ -231,3 +231,107 @@ a {
 }
 
 /* =========== SECTION: SERVICES =========== */
+.services {
+    margin-top: 170px;
+}
+
+.services__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__title {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.services__desc {
+    color: #575f66;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.667;
+    width: 468px;
+    margin-top: 18px;
+}
+
+.services__btn {
+    font-size: 1.8rem;
+    line-height: 1.667;
+    padding: 15px 49px;
+    margin-top: 70px;
+}
+
+.services__row {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.services__images {
+    margin-right: 130px;
+}
+
+.services_img {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.services__info {
+    width: 470px;
+}
+
+.services__item {
+    display: flex;
+    padding: 21px 22px;
+    border-radius: 10px;
+    background: #fff;
+    transition: box-shadow 0.3s;
+}
+
+.services__item:hover {
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.services__item:hover .services__item--circle {
+    background: var(--primary-color);
+}
+
+.services__item:hover .services__item--icon {
+    filter: brightness(0) invert(1);
+}
+
+.services__item--circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 19px;
+    transition: background 0.3s;
+}
+
+.services__item--icon {
+    transition: filter 0.3s;
+    padding: 18px;
+}
+
+.services__item--title {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services__item--desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 8px;
+}
